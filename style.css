@@ -1,14 +1,14 @@
 .box{
-    width: 20px;
-    height: 20px;
     border-style: solid;
     border-color: lightgrey;
     box-sizing: border-box;
+    
+    flex: 1 0 calc(100% /16);
 }
 
 #container{
-    width: 320px;
-    height: 320px;
+    width: 960px;
+    height: 960px;
 
     display: flex;
     flex-wrap: wrap;

@@ -10,3 +10,11 @@ function createGrid(){
 }
 
 createGrid();
+
+boxes = document.querySelectorAll('.box');
+
+boxes.forEach((box1) => {
+    box1.addEventListener('mouseover', (event) => {
+        box1.style.backgroundColor = 'black';
+    })
+});
